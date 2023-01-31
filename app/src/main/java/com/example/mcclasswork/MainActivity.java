@@ -35,7 +35,12 @@ public class MainActivity extends AppCompatActivity {
                 Boolean b=d.insertStd(duat,countt,date1);
                 if(!b)
                 {
-                    Toast.makeText(MainActivity.this, "data not added", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "dua not added", Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+                    Toast.makeText(MainActivity.this, "dua added", Toast.LENGTH_SHORT).show();
+
                 }
             }
         });
